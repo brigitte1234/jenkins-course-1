@@ -13,6 +13,6 @@ job('NodeJS example') {
                          // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
     }
     steps {
-        batchFile("cmd.exe /c npm install")
+        batchFile("npm install")
     }
 }
